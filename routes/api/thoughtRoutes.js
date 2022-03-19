@@ -21,7 +21,7 @@ router.route('/:id')
 .put(editThoughtById)
 .delete(deleteThoughtById)
 
-router.route(':thoughtId/reactions')
+router.route('/:thoughtId/reactions')
 .post(addReaction)
 .delete(deleteReaction)
 
